@@ -1,0 +1,151 @@
+{
+  "uid" : "f250a3d334c89714",
+  "name" : "NegativeScenario",
+  "fullName" : "Tests.NegativeScenario",
+  "historyId" : "4741913665602e6617aacf9eec0d98e4",
+  "time" : {
+    "start" : 1619768069484,
+    "stop" : 1619768069765,
+    "duration" : 281
+  },
+  "description" : "Tests user web service with dataprovider",
+  "descriptionHtml" : "<p>Tests user web service with dataprovider</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "Tests user web service with dataprovider",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Sends User Request with email and password",
+      "time" : {
+        "start" : 1619768069484,
+        "stop" : 1619768069484,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "email",
+        "value" : "alinatkabladze"
+      }, {
+        "name" : "password",
+        "value" : "Automation@!@123"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Gets Response and deserilizes it",
+      "time" : {
+        "start" : 1619768069484,
+        "stop" : 1619768069765,
+        "duration" : 281
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Validates Response Code and Message",
+      "time" : {
+        "start" : 1619768069765,
+        "stop" : 1619768069765,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "expectedCode",
+        "value" : "1204"
+      }, {
+        "name" : "expectedMessage",
+        "value" : "User exists!"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 3,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "Tests"
+  }, {
+    "name" : "testClass",
+    "value" : "Tests"
+  }, {
+    "name" : "testMethod",
+    "value" : "NegativeScenario"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Default Suite"
+  }, {
+    "name" : "suite",
+    "value" : "test-automation-bootcamp-2020"
+  }, {
+    "name" : "subSuite",
+    "value" : "Tests"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-BSJ5I2T"
+  }, {
+    "name" : "thread",
+    "value" : "10400@DESKTOP-BSJ5I2T.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "story",
+    "value" : "Sends email and password, gets response and validates it, gets data from dataprovider"
+  }, {
+    "name" : "epic",
+    "value" : "Post User"
+  }, {
+    "name" : "feature",
+    "value" : "Negative Scenario"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "arg0",
+    "value" : "alinatkabladze"
+  }, {
+    "name" : "arg1",
+    "value" : "Automation@!@123"
+  }, {
+    "name" : "arg2",
+    "value" : "1204"
+  }, {
+    "name" : "arg3",
+    "value" : "User exists!"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f250a3d334c89714.json",
+  "parameterValues" : [ "alinatkabladze", "Automation@!@123", "1204", "User exists!" ]
+}

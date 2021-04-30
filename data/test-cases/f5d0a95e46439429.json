@@ -1,0 +1,115 @@
+{
+  "uid" : "f5d0a95e46439429",
+  "name" : "GenerateTokenTest",
+  "fullName" : "Tests.GenerateTokenTest",
+  "historyId" : "a215a5913eae04fd6198bb6335e3d5e3",
+  "time" : {
+    "start" : 1619768065335,
+    "stop" : 1619768065648,
+    "duration" : 313
+  },
+  "description" : "Description: Generate Token main test, 3 iterations with validations",
+  "descriptionHtml" : "<p>Description: Generate Token main test, 3 iterations with validations</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "Description: Generate Token main test, 3 iterations with validations",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "GenerateTokenStep",
+      "time" : {
+        "start" : 1619768065335,
+        "stop" : 1619768065648,
+        "duration" : 313
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "name",
+        "value" : "alinatkabladze"
+      }, {
+        "name" : "password",
+        "value" : "Automation@!@1234"
+      }, {
+        "name" : "statusCode",
+        "value" : "200"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 1,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "Tests"
+  }, {
+    "name" : "testClass",
+    "value" : "Tests"
+  }, {
+    "name" : "testMethod",
+    "value" : "GenerateTokenTest"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Default Suite"
+  }, {
+    "name" : "suite",
+    "value" : "test-automation-bootcamp-2020"
+  }, {
+    "name" : "subSuite",
+    "value" : "Tests"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-BSJ5I2T"
+  }, {
+    "name" : "thread",
+    "value" : "10400@DESKTOP-BSJ5I2T.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "feature",
+    "value" : "Negative Cases"
+  }, {
+    "name" : "story",
+    "value" : "GenerateToken"
+  }, {
+    "name" : "epic",
+    "value" : "Generate Token"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "arg0",
+    "value" : "alinatkabladze"
+  }, {
+    "name" : "arg1",
+    "value" : "Automation@!@1234"
+  }, {
+    "name" : "arg2",
+    "value" : "200"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f5d0a95e46439429.json",
+  "parameterValues" : [ "alinatkabladze", "Automation@!@1234", "200" ]
+}

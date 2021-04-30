@@ -1,0 +1,251 @@
+{
+  "e24627152c47e7d96616ebce2f8a80ac" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e9fa5a19ffa2bb48",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619768145226,
+        "stop" : 1619768148996,
+        "duration" : 3770
+      }
+    } ]
+  },
+  "e61010acb9117decf06e6761ca2b1c2e" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "eef0e7c9412a2793",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619768157355,
+        "stop" : 1619768157652,
+        "duration" : 297
+      }
+    } ]
+  },
+  "c501cf2c3c9485d7f72f63e2588eb298" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "94cb93321dce5aa1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619768149293,
+        "stop" : 1619768149571,
+        "duration" : 278
+      }
+    } ]
+  },
+  "a4c547be2e71f6a12347861541bbeb3b" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "71b5c327acf2760f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619768157074,
+        "stop" : 1619768157339,
+        "duration" : 265
+      }
+    } ]
+  },
+  "1b36e87a87c3e1f8d6632a164783eaf9" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "d461d6426c1ca8f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619768144180,
+        "stop" : 1619768144648,
+        "duration" : 468
+      }
+    } ]
+  },
+  "4cc262cd92460e286bc0787e2d087918" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "3e77a997db85dbbb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619768144664,
+        "stop" : 1619768144929,
+        "duration" : 265
+      }
+    } ]
+  },
+  "de7785ef83c5be1e30f12322fa50b4d4" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "ae0d5b3a55088ce6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619768149841,
+        "stop" : 1619768150122,
+        "duration" : 281
+      }
+    } ]
+  },
+  "a215a5913eae04fd6198bb6335e3d5e3" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "9b0d5a971623a7ee",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619768144929,
+        "stop" : 1619768145226,
+        "duration" : 297
+      }
+    } ]
+  },
+  "1ae13647e986e2fafa82036be6079a6a" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "207a71db5f711b2a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619768149575,
+        "stop" : 1619768149841,
+        "duration" : 266
+      }
+    } ]
+  },
+  "4741913665602e6617aacf9eec0d98e4" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "c8a35f1faa86404",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619768148996,
+        "stop" : 1619768149277,
+        "duration" : 281
+      }
+    } ]
+  },
+  "d10b146bafe7595f82bb58eaa1c53007" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "dc19897a20a91072",
+      "status" : "failed",
+      "statusDetails" : "expected [false] but found [true]",
+      "time" : {
+        "start" : 1619768156777,
+        "stop" : 1619768157058,
+        "duration" : 281
+      }
+    } ]
+  },
+  "59cf34f3f833b794a0ad4e591600aa0e" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "af094be29e46429c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619768135010,
+        "stop" : 1619768144023,
+        "duration" : 9013
+      }
+    } ]
+  },
+  "342bf8b6b09b7b90d99f2a393a838291" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "eaadecae95dc9ffb",
+      "status" : "failed",
+      "statusDetails" : "Invalid element state: element click intercepted: Element <button id=\"gotoStore\" type=\"button\" class=\"btn btn-primary\">...</button> is not clickable at point (579, 638). Other element would receive the click: <span>...</span>\r\nScreenshot: file:/C:/Users/monolith/Desktop/TBC/FINAL_JENKINS/test-automation-bootcamp-2020/build/reports/tests/1619768156475.0.png\r\nPage source: file:/C:/Users/monolith/Desktop/TBC/FINAL_JENKINS/test-automation-bootcamp-2020/build/reports/tests/1619768156475.0.html\r\nTimeout: 4 s.\r\nCaused by: ElementClickInterceptedException: element click intercepted: Element <button id=\"gotoStore\" type=\"button\" class=\"btn btn-primary\">...</button> is not clickable at point (579, 638). Other element would receive the click: <span>...</span>",
+      "time" : {
+        "start" : 1619768150122,
+        "stop" : 1619768156745,
+        "duration" : 6623
+      }
+    } ]
+  }
+}

@@ -1,0 +1,246 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "Books",
+    "children" : [ {
+      "name" : "Get a Single Book",
+      "children" : [ {
+        "name" : "Get a book from the Site and the API and Compare the data sets",
+        "children" : [ {
+          "name" : "GOBTest",
+          "uid" : "af094be29e46429c",
+          "parentUid" : "a18f0835fdb8e001e8647b82de4c39ff",
+          "status" : "passed",
+          "time" : {
+            "start" : 1619768135010,
+            "stop" : 1619768144023,
+            "duration" : 9013
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "a18f0835fdb8e001e8647b82de4c39ff"
+      } ],
+      "uid" : "b8ab4532b9012348f55b39e001d4b82c"
+    }, {
+      "name" : "Get all books",
+      "children" : [ {
+        "name" : "Validate that the data on the website and API is the same",
+        "children" : [ {
+          "name" : "GetBooksDataFromUIAndAPITest",
+          "uid" : "e9fa5a19ffa2bb48",
+          "parentUid" : "b28c49b198ab3d5fe51d72108ea9028f",
+          "status" : "passed",
+          "time" : {
+            "start" : 1619768145226,
+            "stop" : 1619768148996,
+            "duration" : 3770
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "b28c49b198ab3d5fe51d72108ea9028f"
+      } ],
+      "uid" : "b73b4659f3b193195d5d5a3f624c3db6"
+    }, {
+      "name" : "login and validate add book",
+      "children" : [ {
+        "name" : "validate test",
+        "children" : [ {
+          "name" : "getUserLoginAddBook",
+          "uid" : "eaadecae95dc9ffb",
+          "parentUid" : "785190113ee51a790546b5cb734fa6ea",
+          "status" : "failed",
+          "time" : {
+            "start" : 1619768150122,
+            "stop" : 1619768156745,
+            "duration" : 6623
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "785190113ee51a790546b5cb734fa6ea"
+      } ],
+      "uid" : "3660a799feb05d67dbc03fe42a3cc071"
+    } ],
+    "uid" : "76792ac41856d3b07e291a15774523c5"
+  }, {
+    "name" : "Generate Token",
+    "children" : [ {
+      "name" : "Negative Cases",
+      "children" : [ {
+        "name" : "GenerateToken",
+        "children" : [ {
+          "name" : "GenerateTokenTest",
+          "uid" : "d461d6426c1ca8f",
+          "parentUid" : "c8bc9255e2887fb35b184141ebf6f252",
+          "status" : "passed",
+          "time" : {
+            "start" : 1619768144180,
+            "stop" : 1619768144648,
+            "duration" : 468
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "tttt", "TestAutomation1@#1", "200" ]
+        }, {
+          "name" : "GenerateTokenTest",
+          "uid" : "3e77a997db85dbbb",
+          "parentUid" : "c8bc9255e2887fb35b184141ebf6f252",
+          "status" : "passed",
+          "time" : {
+            "start" : 1619768144664,
+            "stop" : 1619768144929,
+            "duration" : 265
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "tttt", "", "400" ]
+        }, {
+          "name" : "GenerateTokenTest",
+          "uid" : "9b0d5a971623a7ee",
+          "parentUid" : "c8bc9255e2887fb35b184141ebf6f252",
+          "status" : "passed",
+          "time" : {
+            "start" : 1619768144929,
+            "stop" : 1619768145226,
+            "duration" : 297
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "alinatkabladze", "Automation@!@1234", "200" ]
+        } ],
+        "uid" : "c8bc9255e2887fb35b184141ebf6f252"
+      } ],
+      "uid" : "894a0a15744b01122b2a5b182e4b5ebf"
+    }, {
+      "name" : "Generate token for unauthorized user",
+      "children" : [ {
+        "name" : "Adds an user and gets the list of books",
+        "children" : [ {
+          "name" : "Add an user",
+          "uid" : "ae0d5b3a55088ce6",
+          "parentUid" : "23ca83cff5d495371ebb117289b3706c",
+          "status" : "passed",
+          "time" : {
+            "start" : 1619768149841,
+            "stop" : 1619768150122,
+            "duration" : 281
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "23ca83cff5d495371ebb117289b3706c"
+      }, {
+        "name" : "Checks if the given user is authorized, before generating token",
+        "children" : [ {
+          "name" : "User is not authorized",
+          "uid" : "dc19897a20a91072",
+          "parentUid" : "aaaf9de83a609701533aa444a91d384a",
+          "status" : "failed",
+          "time" : {
+            "start" : 1619768156777,
+            "stop" : 1619768157058,
+            "duration" : 281
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "aaaf9de83a609701533aa444a91d384a"
+      }, {
+        "name" : "Generates the token for given user",
+        "children" : [ {
+          "name" : "Generate Token",
+          "uid" : "71b5c327acf2760f",
+          "parentUid" : "408f4f730badbb21cb01003b40ee8525",
+          "status" : "passed",
+          "time" : {
+            "start" : 1619768157074,
+            "stop" : 1619768157339,
+            "duration" : 265
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "408f4f730badbb21cb01003b40ee8525"
+      }, {
+        "name" : "Checks if the given user is authorized, after generating token",
+        "children" : [ {
+          "name" : "User is now authorized",
+          "uid" : "eef0e7c9412a2793",
+          "parentUid" : "7331e5e5de13b343dd8dbf78ac90722c",
+          "status" : "passed",
+          "time" : {
+            "start" : 1619768157355,
+            "stop" : 1619768157652,
+            "duration" : 297
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "7331e5e5de13b343dd8dbf78ac90722c"
+      } ],
+      "uid" : "a2bebf2ba7cda5ffeec7bab3a309032a"
+    } ],
+    "uid" : "5f72f693e10b85c0d34843adb3b5f562"
+  }, {
+    "name" : "Post User",
+    "children" : [ {
+      "name" : "Negative Scenario",
+      "children" : [ {
+        "name" : "Sends email and password, gets response and validates it, gets data from dataprovider",
+        "children" : [ {
+          "name" : "NegativeScenario",
+          "uid" : "c8a35f1faa86404",
+          "parentUid" : "4f36e8a696d1ad9de5c3db351a1f76ee",
+          "status" : "passed",
+          "time" : {
+            "start" : 1619768148996,
+            "stop" : 1619768149277,
+            "duration" : 281
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "alinatkabladze", "Automation@!@123", "1204", "User exists!" ]
+        }, {
+          "name" : "NegativeScenario",
+          "uid" : "94cb93321dce5aa1",
+          "parentUid" : "4f36e8a696d1ad9de5c3db351a1f76ee",
+          "status" : "passed",
+          "time" : {
+            "start" : 1619768149293,
+            "stop" : 1619768149571,
+            "duration" : 278
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "alinatkabladze", "Auto@2", "1300", "Passwords must have at least one non alphanumeric character, one digit ('0'-'9'), one uppercase ('A'-'Z'), one lowercase ('a'-'z'), one special character and Password must be eight characters or longer." ]
+        }, {
+          "name" : "NegativeScenario",
+          "uid" : "207a71db5f711b2a",
+          "parentUid" : "4f36e8a696d1ad9de5c3db351a1f76ee",
+          "status" : "passed",
+          "time" : {
+            "start" : 1619768149575,
+            "stop" : 1619768149841,
+            "duration" : 266
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "alinatkabladze", "", "1200", "UserName and Password required." ]
+        } ],
+        "uid" : "4f36e8a696d1ad9de5c3db351a1f76ee"
+      } ],
+      "uid" : "a1a708b4ea37c06eedd30e76445029b9"
+    } ],
+    "uid" : "1e62c7e57ef6e15f2b4901f1b88e20c7"
+  } ]
+}
